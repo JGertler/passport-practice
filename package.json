@@ -1,0 +1,32 @@
+{
+  "name": "passport-practice",
+  "version": "1.0.0",
+  "description": "Using Passport with Sequelize and MySQL ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amberorenstein/passport-practice.git"
+  },
+  "author": "Amber Orenstein",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amberorenstein/passport-practice/issues"
+  },
+  "homepage": "https://github.com/amberorenstein/passport-practice#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.5",
+    "mysql": "^2.14.1",
+    "mysql2": "^1.4.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^4.7.5"
+  }
+}
